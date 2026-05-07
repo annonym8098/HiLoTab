@@ -63,7 +63,7 @@ All experiments support multiple random seeds. Example seeds:
 ```text
 0,1,2,3,4
 ```
-```Some models requires you to download the checkpoints```
+```Some models requires to download the checkpoints```
 
 # BETA Models
 
