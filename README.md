@@ -207,13 +207,13 @@ Supported models:
 These models use hyperparameter tuning via `--n_trials`.
 
 ```bash
-python [FILE_NAME].py --n_trials [OPTUNA_TRIALS] --dataset [DATASET_NAME] --seeds [SEEDS] --target [TARGET]
+CUDA_VISIBLE_DEVICES=0 python [FILE_NAME].py --n_trials [OPTUNA_TRIALS] --dataset [DATASET_NAME] --seeds [SEEDS] --target [TARGET]
 ```
 
 ## Example
 
 ```bash
-python lspin.py --n_trials 100 --dataset arcene --seeds 0,1,2,3,4 --target label
+CUDA_VISIBLE_DEVICES=0 python lspin.py --n_trials 100 --dataset arcene --seeds 0,1,2,3,4 --target label
 ```
 # ProtoGate
 
