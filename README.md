@@ -220,15 +220,13 @@ CUDA_VISIBLE_DEVICES=0 python lspin.py --n_trials 100 --dataset arcene --seeds 0
 ## Setup
 
 Before running ProtoGate:
-
-1. Navigate to the source directory:
-```bash
-cd src
-```
-
-2. Place your dataset inside:
+1. Place your dataset inside:
 ```text
 Protogate/data/
+```
+2. Navigate to the source directory:
+```bash
+cd src
 ```
 
 ---
