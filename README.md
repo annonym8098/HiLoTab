@@ -54,7 +54,7 @@ Example:
 
 ```text
 datasets/
-└── arcene/
+└── arcene.csv/
 ```
 
 # Running Experiments
