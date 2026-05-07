@@ -293,3 +293,5 @@ CUDA_VISIBLE_DEVICES=0 python tabdpt_pipeline.py \
 --seeds 0,1,2,3,4 \
 --target label
 ```
+# Results 
+After running all experiments, `[MODEL]_results.py` generates and saves the prediction results in CSV format, while `[MODEL]_HiDE.py` computes the additional measures required for calculating the HiDE score.
