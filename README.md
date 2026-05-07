@@ -220,15 +220,10 @@ CUDA_VISIBLE_DEVICES=0 python lspin.py --n_trials 100 --dataset arcene --seeds 0
 ## Setup
 
 Before running ProtoGate:
-1. Place your dataset inside:
-```text
-Protogate/data/
-```
-2. Navigate to the source directory:
+1. Navigate to the source directory:
 ```bash
 cd src
 ```
-
 ---
 
 ## Run
@@ -236,13 +231,7 @@ cd src
 ProtoGate uses Optuna for hyperparameter tuning.
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python run_experiment.py \
---dataset csv \
---train_path /path/to/arcene.csv \
---model protogate \
---full_batch_training \
---enable_optuna \
---optuna_trial 100
+CUDA_VISIBLE_DEVICES=0 python protogate_pipeline.py --dataset csv --train_path /path/to/data.csv --valid_percentage 0.2
 ```
 
 ---
