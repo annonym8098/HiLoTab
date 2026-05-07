@@ -115,13 +115,13 @@ Supported models:
 ## Run
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python [FILE_NAME].py --dataset [DATASET_NAME] --seeds [SEEDS] --target [TARGET]
+CUDA_VISIBLE_DEVICES=0 python [FILE_NAME].py --n_trials [OPTUNA_TRIALS] --dataset [DATASET_NAME] --seeds [SEEDS] --target [TARGET]
 ```
 
 ## Example
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python xgb.py --dataset arcene --seeds 0,1,2,3,4 --target label
+CUDA_VISIBLE_DEVICES=0 python xgb.py --n_trials 100 --dataset arcene --seeds 0,1,2,3,4 --target label
 ```
 ---
 # Machine Learning Models
