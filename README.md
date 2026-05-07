@@ -231,7 +231,7 @@ cd src
 ProtoGate uses Optuna for hyperparameter tuning.
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python protogate_pipeline.py --dataset csv --train_path /path/to/data.csv --valid_percentage 0.2
+CUDA_VISIBLE_DEVICES=0 python protogate_pipeline.py --dataset csv --train_path /path/to/data.csv --valid_percentage [N]
 ```
 
 ---
